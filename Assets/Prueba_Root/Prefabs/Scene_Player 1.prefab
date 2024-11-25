@@ -1,0 +1,1434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!1 &454673442577204648
+=======
+--- !u!1 &1018588185914026717
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  - component: {fileID: 5449468990834989881}
+=======
+  - component: {fileID: 8154244755171756942}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!4 &5449468990834989881
+=======
+--- !u!4 &8154244755171756942
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 454673442577204648}
+=======
+  m_GameObject: {fileID: 1018588185914026717}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_Father: {fileID: 1275679941066044031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &731557778486087318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3100561758218771660}
+  - component: {fileID: 7548063874361056618}
+  - component: {fileID: 2696283095846292333}
+  - component: {fileID: 4974210406241837893}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3100561758218771660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731557778486087318}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.062999964, z: -0.069000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4236698182313059071}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &7548063874361056618
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731557778486087318}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &2696283095846292333
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731557778486087318}
+  m_Enabled: 1
+--- !u!114 &4974210406241837893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731557778486087318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!1 &1477816966646514151
+=======
+  m_Father: {fileID: 8002609705244962428}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1574098966001328498
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  - component: {fileID: 6628922127680264650}
+  - component: {fileID: 4506559100961513583}
+  - component: {fileID: 756912190152395443}
+=======
+  - component: {fileID: 921059879032173069}
+  - component: {fileID: 3245400976620979228}
+  - component: {fileID: 264936457348179951}
+  - component: {fileID: 465330444166224036}
+  m_Layer: 0
+  m_Name: FrontSide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &921059879032173069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574098966001328498}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0.25}
+  m_LocalScale: {x: 0.5, y: 0.2, z: 0.6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8575644562830603613}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3245400976620979228
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574098966001328498}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &264936457348179951
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574098966001328498}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a59a77e501a06514ba1f1f0da51e5f78, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &465330444166224036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574098966001328498}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &3034866969019322594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8575644562830603613}
+  m_Layer: 0
+  m_Name: CameraPos
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8575644562830603613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3034866969019322594}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 921059879032173069}
+  - {fileID: 4466869272958081036}
+  m_Father: {fileID: 8002609705244962428}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4145224571497952649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4466869272958081036}
+  m_Layer: 0
+  m_Name: CameraHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4466869272958081036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145224571497952649}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7281975192527087374}
+  m_Father: {fileID: 8575644562830603613}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7052316956166727876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902682823191736767}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Layer: 0
+  m_Name: personaje
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!4 &6628922127680264650
+=======
+--- !u!4 &902682823191736767
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 1477816966646514151}
+=======
+  m_GameObject: {fileID: 7052316956166727876}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_Father: {fileID: 1275679941066044031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4506559100961513583
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477816966646514151}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &756912190152395443
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477816966646514151}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2706648500010629880
+=======
+  m_Father: {fileID: 8002609705244962428}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8280201089186964933
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  - component: {fileID: 1275679941066044031}
+  - component: {fileID: 2058994950771167343}
+  - component: {fileID: 1985093631578826727}
+  - component: {fileID: 8076415797653282213}
+  - component: {fileID: 7912580770228234824}
+  - component: {fileID: 7732068510957796513}
+  - component: {fileID: 4203774153174530937}
+  - component: {fileID: 6790694103803916637}
+  - component: {fileID: 520748739206858197}
+=======
+  - component: {fileID: 5476894810967619600}
+  - component: {fileID: 3768721163716476975}
+  - component: {fileID: 1055153152874096335}
+  m_Layer: 0
+  m_Name: personaje
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5476894810967619600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280201089186964933}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8002609705244962428}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3768721163716476975
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280201089186964933}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1055153152874096335
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280201089186964933}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8388159011211624071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8002609705244962428}
+  - component: {fileID: 2607679998923236259}
+  - component: {fileID: 1115447463363561939}
+  - component: {fileID: 9028218533801816093}
+  - component: {fileID: 2023738587560753669}
+  - component: {fileID: 5029050308689566752}
+  - component: {fileID: 7330018161094452494}
+  - component: {fileID: 7088581780868943973}
+  - component: {fileID: 1138809205977104914}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Layer: 0
+  m_Name: Scene_Player 1
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!4 &1275679941066044031
+=======
+--- !u!4 &8002609705244962428
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  - {fileID: 6628922127680264650}
+  - {fileID: 5449468990834989881}
+  - {fileID: 4236698182313059071}
+  - {fileID: 6413576180910999195}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &2058994950771167343
+=======
+  - {fileID: 5476894810967619600}
+  - {fileID: 902682823191736767}
+  - {fileID: 8575644562830603613}
+  - {fileID: 8154244755171756942}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &2607679998923236259
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!114 &1985093631578826727
+=======
+--- !u!114 &1115447463363561939
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ea65e9e58cc4c44b6f279a5d144cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  playerCamera: {fileID: 0}
+=======
+  playerCamera: {fileID: 5784439706505910284}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  walkSpeed: 1.5
+  runSpeed: 4
+  jumpPower: 0
+  gravity: 10
+  lookSpeed: 2
+  lookXLimit: 45
+  canMove: 1
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  pasos: {fileID: 4203774153174530937}
+--- !u!54 &8076415797653282213
+=======
+  pasos: {fileID: 7330018161094452494}
+--- !u!54 &9028218533801816093
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_CollisionDetection: 1
+--- !u!114 &7912580770228234824
+=======
+  m_CollisionDetection: 0
+--- !u!114 &2023738587560753669
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466c8376d42ec5749b33281003502dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  playerCam: {fileID: 0}
+=======
+  playerCam: {fileID: 5784439706505910284}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  visionRange: 3
+  hitLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  pickUpUIFeedback: {fileID: 0}
+  notesUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  numeroUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!136 &7732068510957796513
+=======
+--- !u!136 &5029050308689566752
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2.0187414
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.0017864704, z: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!82 &4203774153174530937
+=======
+--- !u!82 &7330018161094452494
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b40786ef47be91149abb82c14ac1945d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 0.7
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!114 &6790694103803916637
+=======
+--- !u!114 &7088581780868943973
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef1b370384b6f3409553ed17d7bd394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  camHolder: {fileID: 5265545156368156388}
+  speed: 5
+  sprintSpeed: 0
+  crouchSpeed: 0
+  maxForce: 1
+  sensitivity: 0.2
+  jumpForce: 5
+  groundCheck: {fileID: 454673442577204648}
+=======
+  camHolder: {fileID: 4145224571497952649}
+  speed: 10
+  sprintSpeed: 0
+  crouchSpeed: 0
+  maxForce: 10
+  sensitivity: 0.7
+  jumpForce: 7
+  groundCheck: {fileID: 1018588185914026717}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  isGrounded: 0
+  groundDetectRadius: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!114 &520748739206858197
+=======
+--- !u!114 &1138809205977104914
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 2706648500010629880}
+=======
+  m_GameObject: {fileID: 8388159011211624071}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 666e006045d7d5c4bac5d00e72375a8d,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+      - m_Target: {fileID: 6790694103803916637}
+=======
+      - m_Target: {fileID: 7088581780868943973}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+        m_TargetAssemblyTypeName: FP_Controller, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2d25a990-194b-4815-af26-5b35ff232cb7
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+      - m_Target: {fileID: 6790694103803916637}
+=======
+      - m_Target: {fileID: 7088581780868943973}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+        m_TargetAssemblyTypeName: FP_Controller, Assembly-CSharp
+        m_MethodName: OnLook
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6b664ffd-589a-4ccf-bb9c-5bb708459266
+    m_ActionName: Player/Look[/Mouse/delta,/Pen/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 32810c18-95d4-467a-9044-4d57c9e181ce
+    m_ActionName: Player/Shoot[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 223ecf1e-a9ee-4ef5-84ff-04a521fcd843
+    m_ActionName: Player/Reload[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 98d7e826-174e-415f-bda8-7048474d016b
+    m_ActionName: Player/Sprint[/Keyboard/leftCtrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7c6a013f-803f-447e-856e-7c8a0eab5126
+    m_ActionName: Player/Crouch[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+      - m_Target: {fileID: 6790694103803916637}
+=======
+      - m_Target: {fileID: 7088581780868943973}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+        m_TargetAssemblyTypeName: FP_Controller, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3ef4d542-bd6b-49ac-a9c7-918dcfe67ee3
+    m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2664c951-4df9-44e3-8ca4-855eacdd03bc
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6fff5809-b98d-4d34-94a7-bac3c7ad286b
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b7b8b358-ce02-4a44-a113-434faf5b7685
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4ce29567-0bcd-4d83-91da-bffa110748ca
+    m_ActionName: UI/Point[/Mouse/position,/Pen/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8562f675-19d1-4ea9-b670-b3089a1593b8
+    m_ActionName: UI/Click[/Mouse/leftButton,/Pen/tip]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: da52c24a-d2c9-48b9-8475-99a7ae7b48b0
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7fc1fd18-d636-4b6d-a86f-90f9f055bb86
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 94f951cd-9f5e-4acb-b90d-a705efc0f5a1
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 18a3051f-66b6-4d79-9722-ab958137b66e
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c3ea529f-de7c-4dc2-ac06-fb146f1d6013
+    m_ActionName: UI/TrackedDeviceOrientation
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!1 &5265545156368156388
+=======
+--- !u!1 &9192230975779493976
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  - component: {fileID: 4236698182313059071}
+  m_Layer: 0
+  m_Name: CameraHolder
+  m_TagString: Untagged
+=======
+  - component: {fileID: 7281975192527087374}
+  - component: {fileID: 5784439706505910284}
+  - component: {fileID: 1819494471722602597}
+  - component: {fileID: 1936466813206330977}
+  - component: {fileID: 1189530287192172083}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+--- !u!4 &4236698182313059071
+=======
+--- !u!4 &7281975192527087374
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_GameObject: {fileID: 5265545156368156388}
+=======
+  m_GameObject: {fileID: 9192230975779493976}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.43700004, z: 0.569}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+<<<<<<< HEAD:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player 1.prefab
+  m_Children:
+  - {fileID: 3100561758218771660}
+  m_Father: {fileID: 1275679941066044031}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5462490011091855155
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1275679941066044031}
+    m_Modifications:
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.486
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.54399997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198688537815583269, guid: b679b223e1816e440b620529196398e7,
+        type: 3}
+      propertyPath: m_Name
+      value: frontside
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b679b223e1816e440b620529196398e7, type: 3}
+--- !u!4 &6413576180910999195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1355355027507814824, guid: b679b223e1816e440b620529196398e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 5462490011091855155}
+=======
+  m_Children: []
+  m_Father: {fileID: 4466869272958081036}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &5784439706505910284
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9192230975779493976}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 55.64
+  orthographic: 0
+  orthographic size: 10
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1819494471722602597
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+>>>>>>> 7e1fef2a6cc1b060631b961a4732e38ec97cd901:01_Android_Common_Project/Assets/Prueba_Root/Prefabs/Scene_Player.prefab
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9192230975779493976}
+  m_Enabled: 1
+--- !u!114 &1936466813206330977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9192230975779493976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!82 &1189530287192172083
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9192230975779493976}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7a244787d445fb948ab3bb04a0aeddbb, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
