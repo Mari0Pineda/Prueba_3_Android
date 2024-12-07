@@ -167,11 +167,6 @@ public class GyroScope : MonoBehaviour
         _appliedGyroAngle = _rawGyroRotation.eulerAngles.y;
     }
 
-    public void Move(InputAction.CallbackContext context)
-    {
-        // Get the joystick (left stick) input as a Vector2
-        moveInput = context.ReadValue<Vector2>();
-    }
 
     private void ApplyCalibration()
     {
