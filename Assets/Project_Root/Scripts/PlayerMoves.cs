@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player_Movement_Script : MonoBehaviour
-{ //Referencias privadas
+public class PlayerMoves : MonoBehaviour
+{
+    // Start is called before the first frame update
     Rigidbody rb;
     Animator anim;
     /// <summary>

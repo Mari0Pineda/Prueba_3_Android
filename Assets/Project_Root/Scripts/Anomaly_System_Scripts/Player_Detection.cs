@@ -1,92 +1,87 @@
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Detection : MonoBehaviour
 {
-    
-   
     [SerializeField] private List<AnomalySystem> materialchangeScripts = new List<AnomalySystem>();
-    [SerializeField] private List<PositionChange>  positionchangeScripts = new List<PositionChange>();
+    [SerializeField] private List<PositionChange> positionchangeScripts = new List<PositionChange>();
     [SerializeField] private List<RotationChange> rotationchangeScripts = new List<RotationChange>();
-    
-    // Start is called before the first frame update
+
+    private bool PlayerDetected = false;
     private int entryCount = 0;
+    private bool tasksTriggered = false;
+
     void Start()
     {
-                                         //MATERIAL CHANGE
-           GameObject anomalyParentObject = GameObject.Find("MaterialChangeProps");
-        if (anomalyParentObject != null) 
+        
+        GameObject anomalyParentObject = GameObject.Find("MaterialChangeProps");
+        if (anomalyParentObject != null)
         {
-            AnomalySystem[] childAnomalyScripts = anomalyParentObject.GetComponentsInChildren<AnomalySystem>();
-            materialchangeScripts.AddRange(childAnomalyScripts);
+            materialchangeScripts.AddRange(anomalyParentObject.GetComponentsInChildren<AnomalySystem>());
+        }
+        else
+        {
+            Debug.LogWarning("No Object found");
         }
 
-        else if (materialchangeScripts.Count == 0) 
-        {
-            Debug.Log("No AnomalySystem (texturechange)script found in children");
-        }
-
-                                    //POSITION CHANGE
+        // Find child scripts for position change
         GameObject positionParentObject = GameObject.Find("PositionChangeProps");
         if (positionParentObject != null)
         {
-            PositionChange[] childPositionScripts = positionParentObject.GetComponentsInChildren<PositionChange>();
-            positionchangeScripts.AddRange(childPositionScripts);
+            positionchangeScripts.AddRange(positionParentObject.GetComponentsInChildren<PositionChange>());
         }
-        else if (positionchangeScripts.Count == 0) 
+        else
         {
-            Debug.Log("No Position Change scripts found in PositionChangeProps'children");
-        }
-                                     //ROTATION CHANGE
-        GameObject rotationParentObject  = GameObject.Find("RotationChangeProps");
-        if(rotationParentObject != null)
-        {
-            RotationChange[] childRotationScripts = rotationParentObject.GetComponentsInChildren<RotationChange>();
-            rotationchangeScripts.AddRange(childRotationScripts);    
+            Debug.LogWarning("No POsition  object found.");
         }
 
-      
+        // Find child scripts for rotation change
+        GameObject rotationParentObject = GameObject.Find("RotationChangeProps");
+        if (rotationParentObject != null)
+        {
+            rotationchangeScripts.AddRange(rotationParentObject.GetComponentsInChildren<RotationChange>());
+        }
+        else
+        {
+            Debug.LogWarning("No RotationChangeProps object found.");
+        }
     }
 
-   
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the object entering the trigger is the player
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !tasksTriggered)
         {
-           
-            Debug.Log("Player Detected");
-         
-            entryCount++;  
-            Debug.Log("Contact count:" + entryCount);
-
-            // countdown on the second time
+            entryCount++;
+            Debug.Log("Player contact count: " + entryCount);
 
             if (entryCount == 2)
-            { 
-                Debug.Log("Player contact #2 ...");
-                //material change logic
+            {
+                tasksTriggered = true; 
+                PlayerDetected = true;
+
+    
+
                 foreach (var materialChangeScript in materialchangeScripts)
                 {
+                    Debug.Log("Material change:  " + materialChangeScript.gameObject.name);
                     materialChangeScript.MaterialCounter();
                 }
-                
-                //position change logic
                 foreach (var positionChangeScript in positionchangeScripts)
                 {
-                    positionChangeScript.PositionCounter();   
+                    Debug.Log("Position change: " + positionChangeScript.gameObject.name);
+                    positionChangeScript.PositionCounter();
                 }
-                //rotation change logic
-                
-                foreach(var rotationChangeScript in rotationchangeScripts) 
-                { 
+                foreach (var rotationChangeScript in rotationchangeScripts)
+                {
+                    Debug.Log("Rotation Change: " + rotationChangeScript.gameObject.name);
                     rotationChangeScript.RotationCounter();
                 }
             }
-
         }
     }
 
+    public bool IsPlayerDetected()
+    {
+        return PlayerDetected;
+    }
 }

@@ -8,19 +8,18 @@ public class PositionChange : MonoBehaviour
     [SerializeField] Vector3 initialPosition;
     [SerializeField] public Vector3 newPosition;
     [SerializeField] float PositionDelayTime;
-   
+   public bool positionChanged { get; private set; }= false;
     // Start is called before the first frame update
     void Start()
     {
         initialPosition = transform.position;
-       // initialRotation = transform.rotation;
     }
 
 
     private void ChangePosition()
     {
         transform.localPosition = newPosition;
-        //transform.rotation = Quaternion.Euler(newRotation);
+        positionChanged = true;
     }
     public void PositionCounter() 
     {

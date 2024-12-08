@@ -6,6 +6,7 @@ using UnityEngine;
 public class AnomalySystem : MonoBehaviour
 {
     //                                         Initial position,rotation,texture fields     //
+    public bool isTextureChanged { get; private set; } =false;
     [SerializeField] GameObject Prop;
 
     //[SerializeField] GameObject anomalyObject; //Mightnot need it.
@@ -64,6 +65,7 @@ public class AnomalySystem : MonoBehaviour
         {
             modelRend.material = AnomalyMaterial;
             Debug.Log("Material changed to anomaly material!");
+            isTextureChanged = true;
         }
         else
         {

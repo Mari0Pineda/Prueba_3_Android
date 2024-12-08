@@ -1,21 +1,15 @@
-using JetBrains.Annotations;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-//ACTIVATE Room only .  Room menu
 public class Room_Menu_Controller : MonoBehaviour
 {
-
-    // Start is called before the first frame update
     [SerializeField] private Toggle[] toggles;
     public GameObject Room_1;
     public GameObject Room_2;
     public GameObject Room_3;
     public GameObject Location_Menu;
+    public Player_Movement_Script playerMovement;
 
     private void Start()
     {
@@ -24,7 +18,25 @@ public class Room_Menu_Controller : MonoBehaviour
             toggle.onValueChanged.AddListener(OnToggleChanged);
             toggle.isOn = false;
         }
+
+        // Reference the Player_Movement_Script
+        playerMovement = FindObjectOfType<Player_Movement_Script>();
+        if (playerMovement == null)
+            Debug.LogError("Player_Movement_Script is missing in the scene!");
     }
+
+    public void ShowMenu()
+    {
+        Location_Menu.SetActive(true); // Show the menu
+        playerMovement.ToggleMenu(true); // Inform player controller
+    }
+
+    public void HideMenu()
+    {
+        Location_Menu.SetActive(false); // Hide the menu
+        playerMovement.ToggleMenu(false);
+    }
+
     private void OnToggleChanged(bool isOn)
     {
         if (isOn)
@@ -39,48 +51,58 @@ public class Room_Menu_Controller : MonoBehaviour
             }
         }
     }
-
     public void OnRightSlideButton()
     {
         if (toggles[0].isOn)
-        { ActivateRoom1(); }
+        { 
+            ActivateRoom1();
+            playerMovement.ToggleMenu(true);
+
+
+        }
 
         else if (toggles[1].isOn)
-        { ActivateRoom2(); }
+        {
+            ActivateRoom2();
+            playerMovement.ToggleMenu(true);
+
+        }
 
         else if (toggles[2].isOn)
-        { ActivateRoom3(); }
+        {
+            ActivateRoom3();
+            playerMovement.ToggleMenu(true);
+
+        }
         else
         {
             Debug.LogWarning("Select Room");
         }
     }
 
-    //EACH ROOM FUNCT
     public void ActivateRoom1()
     {
-        // Set Room_1 to active, and hide other rooms or menus if neede
         Room_1.SetActive(true);
         Room_2.SetActive(false);
         Room_3.SetActive(false);
-        Location_Menu.SetActive(false);
+        HideMenu(); // Close menu
     }
+
     public void ActivateRoom2()
     {
         Room_2.SetActive(true);
         Room_1.SetActive(false);
         Room_3.SetActive(false);
-        Location_Menu.SetActive(false);
+        HideMenu(); // Close menu
     }
+
     public void ActivateRoom3()
     {
         Room_3.SetActive(true);
         Room_1.SetActive(false);
         Room_2.SetActive(false);
-        Location_Menu.SetActive(false);
+        HideMenu(); // Close menu
     }
-
-    //Left slide button for room menu active.
     public void Activate_Location_Menu()
     {
         Room_1.SetActive(false);
@@ -95,6 +117,6 @@ public class Room_Menu_Controller : MonoBehaviour
         Room_2.SetActive(false);
         Room_3.SetActive(false);
         Location_Menu.SetActive(false);
+        playerMovement.ToggleMenu(false);
     }
-
 }

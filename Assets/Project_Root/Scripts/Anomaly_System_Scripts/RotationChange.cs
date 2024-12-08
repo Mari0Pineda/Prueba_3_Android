@@ -8,6 +8,7 @@ public class RotationChange : MonoBehaviour
    [SerializeField] Quaternion initialRotation;
    [SerializeField] public Vector3 newRotation;
    [SerializeField] float RotationDelayTime;
+    public bool rotationCompleted { get; private set; } = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class RotationChange : MonoBehaviour
     {
         
         transform.localRotation = Quaternion.Euler(newRotation);
+        rotationCompleted = true;   
     }
     public void RotationCounter()
     {

@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Project_Root/Scenes/intro.unity
+    guid: 3f9f5be6cd06d234292569e65fa89d04
+  - enabled: 1
+    path: Assets/Project_Root/Scenes/menu.unity
+    guid: 752187e6ae6206848aa96418f6c670bb
+  - enabled: 1
+    path: Assets/Project_Root/Scenes/cinematica.unity
+    guid: f701dadbedbdb8244b5e3618a21002f1
+  - enabled: 1
     path: Assets/Project_Root/Scenes/escena1.unity
     guid: ac8b71f1f6f065d48a609c318a0f2480
+  - enabled: 1
+    path: Assets/Project_Root/Scenes/victoria.unity
+    guid: 27b42b634f1c29047860d820c22bae55
+  - enabled: 1
+    path: Assets/Project_Root/Scenes/muerte.unity
+    guid: c3f379b62f5a81e41be18b37fe6ef12d
   m_configObjects: {}
