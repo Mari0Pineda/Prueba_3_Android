@@ -1,135 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Player_Movement_Script : MonoBehaviour
-{ //Referencias privadas
-    Rigidbody rb;
-    Animator anim;
-    /// <summary>
-    /// 
-    /// </summary>
-    [Header("Movement & Look Stats")]
-    [SerializeField] GameObject camHolder;
-    public float speed, sprintSpeed, crouchSpeed, maxForce, sensitivity;
-    bool isSprinting;
-    bool isCrouching;
+{
 
-    [Header("Jumping & GroundCheck Configuration")]
-    public float jumpForce;
-    //Groundcheck
-    [SerializeField] GameObject groundCheck;
-    [SerializeField] bool isGrounded;
-    [SerializeField] float groundDetectRadius = 0.1f;
-    [SerializeField] LayerMask groundLayer;
+    private bool isMenuActive = false;
+   
 
-
-    //Valores privados
-    Vector2 move;
-    Vector2 look;
-    float lookRotation;
-
-    private void Awake()
+   
+    private void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
-        camHolder = GameObject.Find("CameraHolder");
-        groundCheck = GameObject.Find("GroundCheck");
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
+        // Lock the cursor to the center of the screen and hide it
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.transform.position, groundDetectRadius, groundLayer);
-
-    }
-
-    private void FixedUpdate()
-    {
-        Movement();
-
-    }
-
-    private void LateUpdate()
-    {
-        //Movimiento de la cámara
-        CameraMoveLook();
-
-    }
-
-    void Movement()
-    {
-        Vector3 currentVelocity = rb.velocity;
-        Vector3 targetVelocity = new Vector3(move.x, 0, move.y);
-        targetVelocity *= isCrouching ? crouchSpeed : (isSprinting ? sprintSpeed : speed);
-
-        //Alinear la dirección con la orientación correcta
-        targetVelocity = transform.TransformDirection(targetVelocity);
-
-        //Calcular las fuerzas que afectan al movimiento
-        Vector3 velocityChange = (targetVelocity - currentVelocity);
-        velocityChange = new Vector3(velocityChange.x, 0, velocityChange.z);
-        //Limitar la fuerza máxima
-        Vector3.ClampMagnitude(velocityChange, maxForce);
-
-        rb.AddForce(velocityChange, ForceMode.VelocityChange);
-    }
-
-    void CameraMoveLook()
-    {
-        //Girar
-        transform.Rotate(Vector3.up * look.x * sensitivity);
-        //Mirar
-        lookRotation += (-look.y * sensitivity);
-        lookRotation = Mathf.Clamp(lookRotation, -90, 90);
-        camHolder.transform.eulerAngles = new Vector3(lookRotation, camHolder.transform.eulerAngles.y, camHolder.transform.eulerAngles.z);
-
-    }
-
-    void Jump()
-    {
-        Vector3 jumpForces = rb.velocity;
-        if (isGrounded)
+        if (isMenuActive)
         {
-            jumpForces.y = jumpForce;
+            // Unlock the cursor when the menu is active
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+
+            Debug.Log("Menu active: Cursor unlocked");
+            return; // Skip player controls while menu is active
+        }
+        else
+        {
+            // Lock the cursor when the menu is not active
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+
+            Debug.Log("Menu inactive: Cursor locked");
         }
 
-        rb.velocity = jumpForces;
     }
-
-    public void OnMove(InputAction.CallbackContext context)
+    public void ToggleMenu(bool menuActive)
     {
-        move = context.ReadValue<Vector2>();
-    }
-
-    public void OnLook(InputAction.CallbackContext context)
-    {
-        look = context.ReadValue<Vector2>();
-    }
-
-    public void OnJump(InputAction.CallbackContext context)
-    {
-        Jump();
-    }
-
-    public void OnSprint(InputAction.CallbackContext context)
-    {
-        isSprinting = context.ReadValueAsButton();
-    }
-
-    public void OnCrouch(InputAction.CallbackContext context)
-    {
-
-        isCrouching = context.ReadValueAsButton();
-        anim.SetBool("isCrouching", isCrouching);
-
+        isMenuActive = menuActive;
     }
 }
